@@ -20,8 +20,8 @@ import (
 
 var (
 	colnum = flag.Int("c", 7, "columns for images")
-	width  = flag.Int("w", 300, "cell width/height")
-	height = flag.Int("h", 180, "cell width/height")
+	width  = flag.Int("w", 300, "cell width")
+	height = flag.Int("h", 180, "cell height")
 	output = flag.String("o", "collage.jpg", "output file")
 )
 
